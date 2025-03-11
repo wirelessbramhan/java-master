@@ -1,6 +1,4 @@
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 public class ZooRunner
@@ -10,8 +8,16 @@ public class ZooRunner
         //Collections & Interface
         String animalName = "";
         //Class
-        HashSet<String> numbers;
+        HashSet<String> names = new HashSet<>();
         //Interface
         Set<Animal> uniqueAnimals;
+        //advanced for loop
+        int[] numbers = new int[10];
+
+        for (int a : numbers)
+        {
+            System.out.println(a);
+        }
+
     }
 }
